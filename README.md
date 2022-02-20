@@ -3,7 +3,7 @@
 
 Make sure to activate this script **IN ORBIT** and then go where you want
 
-## Hey i ran the script but its saying "the execution of scripts is disabled on this system"
+## Hey, I ran the script, but it's saying "the execution of scripts is disabled on this system"
 
 In this case:
 1. -> Press your Windows Key
@@ -14,7 +14,7 @@ In this case:
 6. -> Hit Enter
 
 Note: You should change this Executionpolicy back to its default if you plan on never using this script again.
-You can change it back to default By doing everything above but changing Step 5 to: ```set-executionpolicy Restricted```
+You can change it back to default By doing everything above, but changing Step 5 to: ```set-executionpolicy Restricted```
 
 Here are the Official Microsoft Explanations about the Executionpolicys:
 - **Restricted** -> Doesn't load configuration files or run scripts. The default execution policy for Windows client computers.

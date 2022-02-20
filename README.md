@@ -10,11 +10,11 @@ In this case:
 2. -> Type PowerShell
 3. -> Right click on it
 4. -> Run as Administrator
-5. -> Paste this: set-executionpolicy remotesigned
+5. -> Paste this: ```set-executionpolicy remotesigned```
 6. -> Hit Enter
 
 Note: You should change this Executionpolicy back to its default if you plan on never using this script again.
-You can change it back to default By doing everything above but changing Step 5 to: set-executionpolicy Restricted
+You can change it back to default By doing everything above but changing Step 5 to: ```set-executionpolicy Restricted```
 
 Here are the Official Microsoft Explanations about the Executionpolicys:
 - **Restricted** -> Doesn't load configuration files or run scripts. The default execution policy for Windows client computers.
